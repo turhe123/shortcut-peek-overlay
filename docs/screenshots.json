@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu.png","caption":"The ShortcutPeekOverlay menu bar menu, with Show Shortcuts Now, the hold-delay picker, Settings, Support and Quit.","alt":"ShortcutPeekOverlay menu bar menu"},
+  {"file":"02-settings.png","caption":"Settings, where you choose the ⌘ hold delay, record the search hotkey, pick excluded apps and turn on launch at login.","alt":"ShortcutPeekOverlay Settings window"}
+]

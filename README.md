@@ -1,5 +1,7 @@
 # ShortcutPeekOverlay
 
+**🌐 Website:** [turhe123.github.io/shortcut-peek-overlay](https://turhe123.github.io/shortcut-peek-overlay/)
+
 Hold Command for a moment and see every menu shortcut of the frontmost app in a searchable overlay.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,13 @@ Paid shortcut helpers in the *Focus & Productivity* category, such as KeyCue ($1
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="ShortcutPeekOverlay menu bar menu" width="720"></p>
+
+<p align="center"><em>The ShortcutPeekOverlay menu bar menu, with Show Shortcuts Now, the hold-delay picker, Settings, Support and Quit.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ShortcutPeekOverlay Settings window" width="560"></p>
+
+<p align="center"><em>Settings, where you choose the ⌘ hold delay, record the search hotkey, pick excluded apps and turn on launch at login.</em></p>
 
 ## Install
 

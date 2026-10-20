@@ -1,0 +1,60 @@
+{
+  "seo_title": "Hold-Command shortcut overlay for macOS",
+  "seo_description": "Hold Command to see every menu shortcut of the frontmost Mac app, or search and run them with a hotkey. Free, open source, native, no network access.",
+  "hero_title_line1": "Hold Command.",
+  "hero_title_accent": "See every shortcut.",
+  "hero_sub": "Hold Command alone for a moment and an overlay lists the frontmost app's menu shortcuts. Press Control-Option-Command-K to search them and run any item.",
+  "features_title": "Learn shortcuts without manuals.",
+  "features_sub": "A small menu bar app that reads the menus you already have and shows what each shortcut does.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Hold Command to peek",
+      "desc": "Hold Command alone for 0.8, 1.2 or 2 seconds and a centered overlay appears. Release the key and it disappears."
+    },
+    {
+      "icon": "bolt",
+      "title": "No false triggers",
+      "desc": "The hold is cancelled by any other key, modifier, click or scroll, so ordinary shortcuts like Command-C never flash the overlay."
+    },
+    {
+      "icon": "text",
+      "title": "Search and run menu items",
+      "desc": "A global hotkey opens a search window. Type to filter by item or menu name, then press Return to run the selected item."
+    },
+    {
+      "icon": "window",
+      "title": "Grouped by menu",
+      "desc": "Shortcuts appear as keycap glyphs, grouped by File, Edit, View and the rest in menu-bar order. Disabled items are dimmed."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Favorites per app",
+      "desc": "Star the items you use and they are pinned to the top, in both search and hold mode."
+    },
+    {
+      "icon": "sliders",
+      "title": "Excluded apps and settings",
+      "desc": "Choose apps where the overlay never shows, record your own hotkey, and optionally launch at login. The overlay is skipped during secure input."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access in System Settings > Privacy & Security > Accessibility.",
+  "faq": [
+    {
+      "q": "Is ShortcutPeekOverlay really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no ads, accounts or paid tiers, and an optional Support button links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility, which it uses to read the frontmost app's menus, press the item you choose, and listen for the Command hold and hotkey with a listen-only event tap. It never blocks or records keystrokes, and macOS may also list it under Input Monitoring. Launch at login is optional."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Settings and favorites are stored locally on your Mac in the app's preferences. The app makes no network connections and has no analytics. Menu data is cached in memory for 5 seconds per app."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source."
+    }
+  ]
+}
