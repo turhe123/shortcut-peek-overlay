@@ -89,3 +89,7 @@ If this saves you a few minutes, you can support the project:
 ## License
 
 MIT © Or Davidai Bachar
+
+## More free Mac apps
+
+Prefer something that runs in the browser? The same pipeline builds [free, private web tools](https://turhe123.github.io/web-tools/): PDF, image, developer, data and audio tools, nothing uploaded.
